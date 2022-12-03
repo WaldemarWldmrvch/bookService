@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>БУККРОСИНГ</title>
+</head>
+<body>
+<p style="text-align:center"><strong>Добро пожаловать на сайт буккроссинга&nbsp;<img alt="cool" src="https://be1.ru/template/be1/vendor/ckeditor_4.6.2_full/plugins/smiley/images/shades_smile.png" title="cool" />&nbsp;!</strong></p>
+
+<p style="text-align:center">&nbsp;</p>
+
+<p style="margin-left:160px">Здесь вы можете оставить свою книгу, а затем забрать по необходимости.</p>
+
+<p style="margin-left:160px">Чтобы оставить свою книгу, необходимо указать&nbsp;<strong>следующую информацию в POST запросе в формате JSON&nbsp;</strong></p>
+
+<p style="margin-left:160px"><strong>по&nbsp;пути http://localhost:port/library/new.</strong></p>
+
+<p style="text-align:center">1. Название книги (<strong>обязательно</strong>).</p>
+
+<p style="text-align:center">2. Имя автора (<strong>обязательно</strong>).</p>
+
+<p style="text-align:center">3. Жанр (<strong>не обязательно</strong>).</p>
+
+<p style="text-align:center">4. Год публикации (<strong>не обязательно</strong>).</p>
+
+<p style="margin-left:160px">После того как вы отдадите книгу, сервис вам сообщит, на какой полке она будет расположена.</p>
+
+<p style="margin-left:160px">Выдача книг осуществляется по&nbsp;<strong>номеру полки</strong>&nbsp;(<strong>id</strong>) с помощью GET запроса по пути&nbsp;<strong>http://localhost:port/library/id</strong>. Увидеть список доступных книг можно по <strong>http://localhost:port/library/all</strong>.</p>
+
+<p style="margin-left:160px">Убрать книгу из доступа можно при помощи DELETE запроса по пути<strong>&nbsp;http://localhost:port/library/id.</strong></p>
+
+<blockquote>
+<p>&nbsp;</p>
+
+<p style="text-align:center">&quot;Прочитанная книга &ndash; ещё одна прожитая жизнь.&quot;</p>
+</blockquote>
+</body>
+</html>
